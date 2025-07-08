@@ -14,39 +14,39 @@ const Team = () => {
               <div role='list' className='grid grid-cols-2 md:grid-cols-3 gap-4 place-items-center'>
 
                   {[{
-                    img: "blockchain dev.jpg",
+                    img: "men3.jpg",
                     alt: "Photo of Noah Tanaka, Lead Blockchain Developer",
                     name: "Noah Tanaka",
                     role: "Lead Blockchain Developer"
                   }, {
-                    img: "ceo.jpg",
+                    img: "woman1.jpg",
                     alt: "Photo of Elena Moravec, CEO",
                     name: "Elena Moravec",
                     role: "CEO"
                   }, {
-                    img: "headofartist.jpg",
+                    img: "woman2.jpg",
                     alt: "Photo of Lucia Moreau, Head of Artist Relations",
                     name: "Lucia Moreau",
                     role: "Head of Artist Relations"
                   }, {
-                    img: "omar.jpg",
+                    img: "men2.jpg",
                     alt: "Photo of Omar Reyes, UI/UX Designer & Fullstack Web Developer",
                     name: "Omar Reyes",
                     role: "UI/UX Designer & Fullstack Web Developer"
                   }, {
-                    img: "contractspecialist.jpg",
+                    img: "woman3.jpg",
                     alt: "Photo of Sophie Bergman, Legal & Contract Specialist",
                     name: "Sophie Bergman",
                     role: "Legal & Contract Specialist"
                   }, {
-                    img: "marketing.jpg",
+                    img: "men1.jpg",
                     alt: "Photo of Jin Park, Marketing & Community Lead",
                     name: "Jin Park",
                     role: "Marketing & Community Lead"
                   }].map(({img, alt, name, role}) => (
                     <div key={name} role="listitem" className='flex flex-col w-full max-w-[200px] gap-y-1 justify-center items-center'>
 
-                      <img src={img} alt={alt} className='w-40 h-52 object-cover rounded-2xl' />
+                      <img src={img} alt={alt} className='w-[150px] h-[200px] object-cover rounded-2xl' />
                       <h3 className='text-base font-semibold'>{name}</h3>
                       <p className='text-base text-center'>{role}</p>
 
